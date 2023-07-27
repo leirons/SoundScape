@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SoundScape/static/css/main.75c65e04.css",
+    "main.js": "/SoundScape/static/js/main.42e61284.js",
+    "static/js/787.e248738b.chunk.js": "/SoundScape/static/js/787.e248738b.chunk.js",
+    "index.html": "/SoundScape/index.html",
+    "main.75c65e04.css.map": "/SoundScape/static/css/main.75c65e04.css.map",
+    "main.42e61284.js.map": "/SoundScape/static/js/main.42e61284.js.map",
+    "787.e248738b.chunk.js.map": "/SoundScape/static/js/787.e248738b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75c65e04.css",
+    "static/js/main.42e61284.js"
+  ]
+}
