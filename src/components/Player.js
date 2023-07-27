@@ -2,7 +2,8 @@ import { useRef, useState } from "react";
 
 export default function Player(props) {
     const [isPlayed, setPlay] = useState(false);
-    const audioRef = useRef(new Audio(props.path));
+    const path = process.env.PUBLIC_URL.substring(1) + "/" +props.path
+    const audioRef = useRef(new Audio(path));
     const [volume, setVolume] = useState(0.5);
     const [isClicked, setClicked] = useState(false);
 
@@ -43,7 +44,7 @@ export default function Player(props) {
             >
                 <div className="sound">
                     <div>
-                        <img src={props.icon} width="40px" alt="Icon" />
+                        <img src={process.env.PUBLIC_URL + "/" + props.icon} width="40px" alt="Icon" />
                     </div>
                     <div>{props.name}</div>
                     <div>

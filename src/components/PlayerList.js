@@ -8,7 +8,7 @@ export default function PlayerList() {
              <Player
               path="data/resources/sounds/rain.ogg"
               name="Rain"
-              icon="data/resources/icons/rain.svg"
+              icon= "data/resources/icons/rain.svg"
              />
 
             <Player
